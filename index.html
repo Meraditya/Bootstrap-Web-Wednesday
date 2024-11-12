@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar AI Bersama Clever AI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
+</head>
+<body class="pt-0" style="background-color: #111111;"> <!-- Hitam untuk background utama -->
+    {% comment %} navbar  {% endcomment %}
+<nav class="navbar navbar-expand-lg bg-dark p-0 fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand p-3 text-light" href="#">Belajar AI</a>
+        <button class="navbar-toggler bg-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll d-flex gap-3 text-center pt-lg-0 pt-4" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#hero">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#tentang">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#layanan">Layanan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#daftar">Daftar</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+   
+
+      {% comment %} hero {% endcomment %}
+      <section id="hero" style="height: 100vh; display: flex; align-items: center; background: linear-gradient(135deg, #1f3b57 50%, #ff8c42 50%);"> <!-- Kombinasi biru gelap dan oranye -->
+        <div class="container">
+            <div class="row d-flex align-items-center flex-column-reverse flex-md-row gap-5" style="height: 100%;">
+                <div class="col-md-4 text-center text-md-start">
+                    <h1 class="text-light">Belajar AI <br>
+                    Bersama <span class="text-warning fw-bold">Moka</span></h1> <!-- Oranye gelap -->
+                    <p class="text-light">Jadilah Pengembang AI Profesional dengan Clever AI</p>
+                    <a class="btn btn-warning mt-3" href="#tentang">Tentang Kami</a> <!-- Tombol oranye gelap -->
+                    <a class="btn btn-outline-light mt-3" href="#kontak">Hubungi Kami</a> <!-- Tombol outline putih -->
+                </div>
+                <div class="col-md-7 text-center">
+                    <img src="ilu.jpg" alt="Ilustrasi AI" class="img-fluid" width="600px">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     {% comment %} tentang kami  {% endcomment %}
+    <section id="tentang" class="py-5" style="background-color: #222222;"> <!-- Background hitam dengan sedikit lebih terang -->
+        <div class="container">
+            <div class="card border-light align-items-center bg-dark bg-opacity-50"> <!-- Card dengan nuansa gelap -->
+              <i class="bi bi-slack me-auto" style="color: white; margin-left: 10px; margin-top: 10px;"></i>
+              <div class="card-body pt-2">
+                <h5 class="card-title text-light">Mengapa Harus <span class="text-warning fw-bold bg-dark bg-opacity-75 p-1 border-radius-12px rounded-3 pt-1">Moka</span></h5> <!-- Aksen oranye gelap -->
+                <p class="card-text text-light">Clever AI memberikan program pelatihan AI dari dasar hingga tingkat profesional. Belajar bersama kami akan memberikan Anda keterampilan yang diperlukan untuk berkarir di bidang AI.</p>
+              </div>
+            </div>
+        </div>
+    </section>
+    
+    {% comment %}  layanan  {% endcomment %}
+    <section id="layanan" class="py-5" style="background-color: #333333;"> <!-- Warna hitam abu-abu gelap -->
+        <div class="container">
+            <h3 class="text-center text-light">Layanan Kami</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mt-3 bg-dark text-light" style="width: 100%;"> <!-- Card dark -->
+                        <img src="g3.jpg" class="card-img-top" alt="Kursus Data Science">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Science</h5>
+                            <p class="card-text">Mulai Kursus Data Science Sekarang</p>
+                            <a href="#" class="btn btn-warning">Mulai Kursus</a> <!-- Tombol oranye gelap -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mt-3 bg-dark text-light" style="width: 100%;"> <!-- Card dark -->
+                        <img src="g1.jpeg" class="card-img-top" alt="Kursus Machine Learning">
+                        <div class="card-body">
+                            <h5 class="card-title">Machine Learning</h5>
+                            <p class="card-text">Pelajari Dasar-Dasar Machine Learning</p>
+                            <a href="#" class="btn btn-warning">Mulai Kursus</a> <!-- Tombol oranye gelap -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mt-3 bg-dark text-light" style="width: 100%;"> <!-- Card dark -->
+                        <img src="g2.jpg" class="card-img-top" alt="Kursus Deep Learning">
+                        <div class="card-body">
+                            <h5 class="card-title">Deep Learning</h5>
+                            <p class="card-text">Belajar Deep Learning untuk AI</p>
+                            <a href="#" class="btn btn-warning">Mulai Kursus</a> <!-- Tombol oranye gelap -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     {% comment %} daftar sekarang {% endcomment %}
+    <section id="daftar" class="py-5" style="display: flex; align-items: center; background-color: #1f3b57;"> <!-- Background biru gelap -->
+        <div class="container">
+            <h1 class="text-light">Daftar Sekarang!</h1>
+            <form>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-light">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+                </div>
+                <div class="mb-3">
+                    <label for="nama" class="form-label text-light">Nama</label>
+                    <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
+                </div>
+                <div class="mb-3">
+                    <label for="telepon" class="form-label text-light">No. Telepon</label>
+                    <input type="text" class="form-control" id="telepon" placeholder="Masukkan no. telepon">
+                </div>
+                <div class="mb-3">
+                    <label for="learning-path" class="form-label text-light">Learning Path</label>
+                    <select class="form-select" id="learning-path">
+                        <option selected>Pilih Learning Path</option>
+                        <option value="1">Data Science</option>
+                        <option value="2">Machine Learning</option>
+                        <option value="3">Deep Learning</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-warning">Daftar Sekarang</button>
+            </form>
+        </div>
+    </section>
+
+     {% comment %} footer  {% endcomment %}
+    <footer class="footer bg-dark text-light text-center p-3">
+        <p>&copy; Ayo Belajar AI bersama Clever AI</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.">
